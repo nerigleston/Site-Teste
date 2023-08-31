@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Estudo Link</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <div class="inicial">
+        <a href="inicial-index.html">Página Inicial</a>
+    </div>
+    <div class="conteudo">
+        <div class="header">
+            <header>
+                <h1>Notícias - Times de Futebol</h1>
+            </header>
+        </div>
+        <p>
+            <div class="dropdown">
+                <button class="dropbtn" id="myDropdown-button" onclick="toggleDropdown('myDropdown')">Times por Estado</button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="index-carioca.html">Carioca</a>
+                    <a href="Index-paulista.html">Paulista</a>
+                </div>
+                <button class="dropbtn" id="myOtherDropdown-button" onclick="toggleDropdown('myOtherDropdown')">Esportes</button>
+                <div class="dropdown-content" id="myOtherDropdown">
+                    <a href="index-ciclismo.html">Ciclismo</a>
+                    <a href="index-corrida.html">Atletismo</a>
+                </div>
+            </div>
+        </p>
+        <p>
+            <div class="carioca">
+                <img src="https://www.fferj.com.br/Content/images/logo.png" width="100" height="50" alt="Emblema Carioca">
+                <div class="name-logo">Carioca</div>
+            </div>
+            <hr />
+            <div class="container-fla">
+                <div class="logo">
+                    <a href="https://www.espn.com.br/futebol/time/_/id/819/flamengo" target="_blank">
+                        <img alt="Flamengo" src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/819.png&amp;h=50&amp;w=50">
+                        Flamengo
+                    </a>
+                </div>
+                <div class="insta">
+                    <a href="https://www.instagram.com/flamengo" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="instagram" title="instagram"
+                            width="20" height="20">
+                    </a>
+                    <div class="twitter">
+                        <a href="https://twitter.com/Flamengo" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3536/3536424.png " alt="twitter" title="twitter"
+                                width="20" height="20">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-vas">
+                <div class="logo">
+                    <a href="https://www.espn.com.br/futebol/time/_/id/3454/vasco-da-gama" target="_blank">
+                        <img alt="Vasco da Gama" class="Image Logo Logo__xxl" data-mptype="image"
+                            src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3454.png&amp;h=50&amp;w=50">
+                        Vasco
+                    </a>
+                </div>
+                <div class="insta">
+                    <a href="https://www.instagram.com/vascodagama" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="instagram" title="instagram"
+                            width="20" height="20">
+                    </a>
+                    <div class="twitter">
+                        <a href="https://twitter.com/VascodaGama" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3536/3536424.png " alt="twitter" title="twitter"
+                                width="20" height="20">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-flu">
+                <div class="logo">
+                    <a href="https://www.espn.com.br/futebol/time/_/id/3445/fluminense" target="_blank">
+                        <img alt="Fluminense" class="Image Logo Logo__xxl" data-mptype="image"
+                            src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3445.png&amp;h=50&amp;w=50">
+                        Fluminense
+                    </a>
+                </div>
+                <div class="insta">
+                    <a href="https://www.instagram.com/fluminense" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="instagram" title="instagram"
+                            width="20" height="20">
+                    </a>
+                    <div class="twitter">
+                        <a href="https://twitter.com/FluminenseFc" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3536/3536424.png " alt="twitter" title="twitter"
+                                width="20" height="20">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-bota">
+                <div class="logo">
+                    <a href="https://www.espn.com.br/futebol/time/_/id/6086/botafogo" target="_blank">
+                        <img alt="Botafogo" class="Image Logo Logo__xxl" data-mptype="image"
+                            src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6086.png&amp;h=50&amp;w=50">
+                        Botafogo
+                    </a>
+                </div>
+                <div class="insta">
+                    <a href="https://www.instagram.com/botafogo" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="instagram" title="instagram"
+                            width="20" height="20">
+                    </a>
+                    <div class="twitter">
+                        <a href="https://twitter.com/FluminenseFc" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3536/3536424.png " alt="twitter" title="twitter"
+                                width="20" height="20">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+        </p>
+    </div>
+    </div>
+    </p>
+    </section>
+    </main>
+    <footer>
+        <p>&copy;Neri</p>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+    </div>
+</body>
+
+</html>

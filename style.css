@@ -1,0 +1,336 @@
+body {
+  background-color: #656565;
+  height:100vh;
+  font-size: 16px;
+}
+
+.inicial{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+}
+
+.page-inicial {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 30vh;
+}
+
+.emblema {
+ display: flex;
+ gap: 5em;
+}
+
+.emblema a {
+ text-decoration: none;
+ color: #333;
+}
+
+.emblema-item {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.emblema img {
+ margin-bottom: 5px;
+}
+
+.insta{
+  margin: 0 0 2em 0;
+  border-radius: 5px;
+  justify-self: unset;
+}
+
+.header {
+  background-color: #656565;
+  border-radius: 5px;
+}
+
+.header header {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.carioca
+
+.paulista
+
+/* Cor do link não visitado */
+a:link {
+  color: black;
+}
+
+/* Cor do link visitado */
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+/* Cor do link quando o mouse está sobre ele */
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+  .container-fla {
+     margin: 0.5em 0 0.5em 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 3px; 
+     width: 100%;
+     border-radius:  5px;
+     background-image: linear-gradient(
+        red,
+        black)
+   }
+
+   .container-vas {
+     margin: 0.5em 0 0.5em 0;
+     display: flex;
+     justify-content: space-between; 
+     align-items: center; 
+     padding: 3px; 
+     width: 100%;
+     border-radius: 5px;
+     background-image: linear-gradient(
+        rgb(0, 0, 0),
+        rgb(243, 243, 243))
+   }
+
+   .container-flu {
+     margin: 0.5em 0 0.5em 0;
+     display: flex;
+     justify-content: space-between; 
+     align-items: center;
+     padding: 3px; 
+     width: 100%;
+     border-radius: 5px;
+     background-image: linear-gradient(
+        purple,
+        green)
+   }
+
+   .container-bota {
+     margin: 0.5em 0 0.5em 0;
+     display: flex;
+     justify-content: space-between; 
+     align-items: center; 
+     padding: 3px; 
+     width: 100%;
+     border-radius: 5px;
+     background-image: linear-gradient(
+        rgb(0, 0, 0),
+        rgb(243, 243, 243))
+   }
+
+   .container-palm {
+     margin: 0.5em 0 0.5em 0;
+     display: flex;
+     justify-content: space-between; 
+     align-items: center; 
+     padding: 3px; 
+     width: 100%;
+     border-radius: 5px;
+     background-image: linear-gradient(
+        rgb(255, 255, 255),
+        green)
+   }
+
+   .container-san {
+     margin: 0.5em 0 0.5em 0;
+     display: flex;
+     justify-content: space-between; 
+     align-items: center; 
+     padding: 3px; 
+     width: 100%;
+     border-radius: 5px;
+     background-image: linear-gradient(
+        rgb(0, 0, 0),
+        rgb(243, 243, 243))
+   }
+
+   .container-cor {
+     margin: 0.5em 0 0.5em 0;
+     display: flex;
+     justify-content: space-between; 
+     align-items: center; 
+     padding: 3px; 
+     width: 100%;
+     border-radius: 5px;
+     background-image: linear-gradient(
+        rgb(0, 0, 0),
+        rgb(255, 255, 255))
+   }
+
+   .container-sp {
+     margin: 0.5em 0 0.5em 0;
+     display: flex;
+     justify-content: space-between; 
+     align-items: center; 
+     padding: 3px; 
+     width: 100%;
+     border-radius: 5px;
+     background-image: linear-gradient(
+        rgb(0, 0, 0),
+        rgb(255, 255, 255),
+        rgb(255, 0, 0))
+   }
+
+   .container-ava {
+     margin: 0.5em 0 0.5em 0;
+     display: flex;
+     justify-content: space-between; 
+     align-items: center; 
+     padding: 3px; 
+     width: 100%;
+     border-radius: 5px;
+     background-image: linear-gradient(
+        rgb(255, 255, 255),
+        rgb(0, 0, 0))
+   }
+
+   .container-kip {
+     margin: 0.5em 0 0.5em 0;
+     display: flex;
+     justify-content: space-between; 
+     align-items: center; 
+     padding: 3px; 
+     width: 100%;
+     border-radius: 5px;
+     background-image: linear-gradient(
+        rgb(255, 255, 255),
+        rgb(0, 0, 0))
+   }
+
+
+   .logo {
+     display: flex;
+     align-items: center;
+     margin-bottom: 1em;
+   }
+   
+   .logo img {
+     margin-right: 0.5em;
+     border-radius: 0.5em;
+   }
+   
+   .insta,
+   .twitter {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: auto; /* Empurra para a parte inferior */
+   }
+   
+   .insta img{
+     margin: 0.5em 0.5em 0 0;
+   }
+   .twitter img {
+     margin: 0 0.5em 0 0;
+   }
+   
+   .twitter a {
+     margin-top: 0.3em; /* Espaçamento entre o ícone e o texto */
+   }
+
+   .link {
+     display: inline-block; /* Mantém o link na mesma linha */
+   }
+
+   main {
+     padding: 20px;
+ }
+
+ section {
+     background-color: #656565;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+ }
+
+ footer {
+     background-color: #656565;
+     color: rgb(0, 0, 0);
+     text-align: center;
+     padding: 0,2em;
+ }
+.dropbtn {
+ border-radius: 5px;
+ background-color: #f2f2f2;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ padding: 10px 20px;
+}
+
+.dropdown {
+ border-radius: 5px;
+ position: relative;
+ display:inline;
+}
+
+.dropdown-content {
+ border-radius: 5px;
+ display: none;
+ position: absolute;
+ background-color: #f9f9f9;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+ top: 100%;
+ left: 0;
+}
+
+.dropdown-content a {
+ border-radius: 5px;
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+.dropdown-content a:hover {
+ background-color: #f1f1f1;
+}
+
+.show {
+ display: block;
+}
+/* Estilos padrão */
+.conteudo {
+ background-color: #656565;
+ padding: 20px;
+}
+
+.name-logo{
+ display: flex;
+}
+
+/* Estilos para telas até 767px (celular) */
+@media (max-width: 767px) {
+ body {
+   font-size: 14px;
+   /* Outros estilos para celular */
+ }
+}
+
+/* Estilos para telas de 768px a 1023px (tablet) */
+@media (min-width: 768px) and (max-width: 1023px) {
+ body {
+   font-size: 15px;
+   /* Outros estilos para tablet */
+ }
+}
+
+/* Estilos para telas a partir de 1024px (computador) */
+@media (min-width: 1024px) {
+ body {
+   font-size: 18px;
+   /* Outros estilos para computador */
+ }
+}
